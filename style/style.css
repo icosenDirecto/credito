@@ -198,10 +198,6 @@ a.navSubLinks:hover {
 	color: var(--blanco);
 }
 
-.hero__image {
-
-}
-
 .heroSubtitleWhite {
 font-family: var(--primaria);
     font-size: var(--golf);
@@ -645,8 +641,8 @@ footer p, a {
 
 	.legales_links__distancia {
 		margin-bottom: 16px;
-		margin-right: 0px; */
-		0padding-right: 0px;
+		/* margin-right: 0px; */
+		padding-right: 0px;
 		line-height: 1.5;
 	}
 
