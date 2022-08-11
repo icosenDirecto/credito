@@ -324,6 +324,10 @@ font-family: var(--primaria);
 	color: var(--blanco);
 }
 
+.colorBlue {
+	color: var(--azul) !important;
+}
+
 /* Botones */
 
 button {
@@ -331,10 +335,10 @@ button {
 	justify-content: center;
 	align-items: center;
 	width: max-content;
-	border-radius: 100px;
+	border-radius: 48px;
 	border: none;
 	cursor: pointer;
-	transition-duration: 500ms;
+	transition-duration: 300ms;
 	transition-timing-function: ease-in-out;
 }
 
@@ -364,12 +368,30 @@ button {
 	padding:  16px 90px;
 }
 
-.btn__verde {
+.btnLine {
+	background-color: transparent;
+	border: 1.5px solid var(--azul);
+}
+
+.btnWhite {
+	background-color: var(--blanco);
+}
+
+.btnGreen {
 	background-color: var(--verde);
 }
 
-.btn__azul {
+.btnBlue {
 	background-color: var(--azul);
+}
+
+.btn:hover {
+	background-color: var(--azul);
+	box-shadow: 0px 0px 0px 4px #C5E0FD;
+}
+
+.btn:hover a {
+	color: var(--blanco) !important;
 }
 
 /* Backgrounds */
