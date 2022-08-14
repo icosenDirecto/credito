@@ -20,7 +20,7 @@ const client = contentful.createClient({
   // This is the space ID. A space is like a project folder in Contentful terms
   space: "av15q3i7id4b",
   // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
-  accessToken: "v1emMJS5EDfIUHa58PmPblecEzONLM2l1i55T7rZBj8"
+  accessToken: "CFPAT-VtuGdmIbclmTEnpwJKKOsMv7Y0s7W1tSVvu95ruezOQ"
 });
 // This API call will request an entry with the specified ID from the space defined at the top, using a space-specific access token.
 client
