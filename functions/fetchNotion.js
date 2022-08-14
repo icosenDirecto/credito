@@ -8,6 +8,7 @@ const notion = new Client({
 exports.handler = async function (event, context) {
     const response = await notion.databases.query({
         database_id: databaseId,
+    });
     return {
         statusCode: 200,
         body: JSON.stringify(response
