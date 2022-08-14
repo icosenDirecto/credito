@@ -14,16 +14,3 @@ window.onclick = function(e) {
   }
 }
 
-// main.js
-const contentful = require("contentful");
-const client = contentful.createClient({
-  // This is the space ID. A space is like a project folder in Contentful terms
-  space: "av15q3i7id4b",
-  // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
-  accessToken: "CFPAT-VtuGdmIbclmTEnpwJKKOsMv7Y0s7W1tSVvu95ruezOQ"
-});
-// This API call will request an entry with the specified ID from the space defined at the top, using a space-specific access token.
-client
-  .getEntry("2vzaN9VlWiszjVGk9fBOY2")
-  .then(entry => console.log(entry))
-  .catch(err => console.log(err));
