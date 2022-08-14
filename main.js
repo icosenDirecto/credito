@@ -13,3 +13,10 @@ window.onclick = function(e) {
     }
   }
 }
+
+// main.js
+var contentful = require('contentful');
+var client = contentful.createClient({
+  space: 'av15q3i7id4b',
+  accessToken: 'v1emMJS5EDfIUHa58PmPblecEzONLM2l1i55T7rZBj8',
+});
