@@ -15,8 +15,24 @@ window.onclick = function(e) {
 }
 
 // main.js
-var contentful = require('contentful');
-var client = contentful.createClient({
-  space: 'av15q3i7id4b',
+var contentfulClient = contentful.createClient({
   accessToken: 'v1emMJS5EDfIUHa58PmPblecEzONLM2l1i55T7rZBj8',
-});
+  space: 'av15q3i7id4b'
+})
+
+var PRODUCT_CONTENT_TYPE_ID = '2vzaN9VlWiszjVGk9fBOY2'
+
+var container = document.getElementById('content')
+
+contentfulClient.getEntries({
+  content_type: PRODUCT_CONTENT_TYPE_ID
+})
+.then(function(entries) {
+  container.innerHTML = renderHelp(entries.items)
+})
+
+function renderHelp (help) {
+  var fields = help.fields
+  console.log(fields)
+  return category.fields.question
+}
