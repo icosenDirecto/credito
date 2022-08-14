@@ -15,24 +15,15 @@ window.onclick = function(e) {
 }
 
 // main.js
-var contentfulClient = contentful.createClient({
-  accessToken: 'v1emMJS5EDfIUHa58PmPblecEzONLM2l1i55T7rZBj8',
-  space: 'av15q3i7id4b'
-})
-
-var PRODUCT_CONTENT_TYPE_ID = '2vzaN9VlWiszjVGk9fBOY2'
-
-var container = document.getElementById('content')
-
-contentfulClient.getEntries({
-  content_type: PRODUCT_CONTENT_TYPE_ID
-})
-.then(function(entries) {
-  container.innerHTML = renderHelp(entries.items)
-})
-
-function renderHelp (help) {
-  var fields = help.fields
-  console.log(fields)
-  return category.fields.question
-}
+const contentful = require("contentful");
+const client = contentful.createClient({
+  // This is the space ID. A space is like a project folder in Contentful terms
+  space: "av15q3i7id4b",
+  // This is the access token for this space. Normally you get both ID and the token in the Contentful web app
+  accessToken: "v1emMJS5EDfIUHa58PmPblecEzONLM2l1i55T7rZBj8"
+});
+// This API call will request an entry with the specified ID from the space defined at the top, using a space-specific access token.
+client
+  .getEntry("2vzaN9VlWiszjVGk9fBOY2")
+  .then(entry => console.log(entry))
+  .catch(err => console.log(err));
