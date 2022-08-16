@@ -585,6 +585,14 @@ input::placeholder {
 	padding: 0px 16px;
 }
 
+input {
+	position: absolute;
+	font-family: var(--secundaria);
+	font-size: var(--squash);
+	color: #656566;
+	padding: 0px 16px;
+}
+
 
 /* MediaQueries MOBILE */
 @media screen and (max-width: 575px) {
