@@ -178,21 +178,25 @@
 				<h2>Quiero adherir<br> mi comercio</h2>
 				<p>Dejanos tus datos y nos estaremos comunicando con vos.</p>
 		</div>
-		<form method="post" name="myemailform" action="contact.php">
-			<p>
-				<label for='name'>Enter Name: </label><br>
-				<input type="text" name="name">
-			</p>
-			<p>
-				<label for='email'>Enter Email Address:</label><br>
-				<input type="text" name="email">
-			</p>
-			<p>
-				<label for='message'>Enter Message:</label> <br>
-				<textarea name="message"></textarea>
-			</p>
-			<input type="submit" name='submit' value="submit">
-		</form>
+		<div class="container">
+			<h1>FormSubmit Demo</h1>
+			<form target="_blank" action="https://formsubmit.co/icosentino@directo.com.ar" method="POST">
+			  <div class="form-group">
+				<div class="form-row">
+				  <div class="col">
+					<input type="text" name="name" class="form-control" placeholder="Full Name" required>
+				  </div>
+				  <div class="col">
+					<input type="email" name="email" class="form-control" placeholder="Email Address" required>
+				  </div>
+				</div>
+			  </div>
+			  <div class="form-group">
+				<textarea placeholder="Your Message" class="form-control" name="message" rows="10" required></textarea>
+			  </div>
+			  <button type="submit" class="btn btn-lg btn-dark btn-block">Submit Form</button>
+			</form>
+		  </div>
 	</section>
 
 	<footer class="">
