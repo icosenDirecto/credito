@@ -585,12 +585,12 @@ input::placeholder {
 	padding: 0px 16px;
 }
 
-input {
+label {
 	position: absolute;
 	font-family: var(--secundaria);
 	font-size: var(--squash);
 	color: #656566;
-	padding: 0px 16px;
+	padding: 16px;
 }
 
 
