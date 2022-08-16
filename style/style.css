@@ -394,6 +394,12 @@ button {
 	color: var(--blanco) !important;
 }
 
+.btnContacto {
+	font-family: var(--secundaria);
+	font-size: var(--golf);
+	color: var(--blanco)
+}
+
 /* Backgrounds */
 
 .bg_degrade {
