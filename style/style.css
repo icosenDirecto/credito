@@ -580,8 +580,8 @@ form {
 
 input::placeholder {
 	font-family: var(--secundaria);
-	font-size: var(--pingpong);
-	color: #E8E8E8;
+	font-size: var(--squash);
+	color: #656566;
 
 }
 
