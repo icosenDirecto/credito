@@ -584,7 +584,7 @@ form {
     width: 100%;
 }
 
-input::placeholder, input::focus {
+input::placeholder, input:focus {
 	font-family: var(--secundaria);
 	font-size: var(--squash);
 	color: #656566;
