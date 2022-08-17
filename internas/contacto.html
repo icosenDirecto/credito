@@ -77,9 +77,20 @@
 
 	<section class="legales">
 		<div class="main-container">
-			<p class="textoLegales">
-			Crédito Directo S.A. (en adelante, “Crédito Directo”) es una sociedad anónima regularmente constituida bajo las leyes de la República Argentina. El hecho de acceder al sitio www.directo.com.ar de Crédito Directo y a las páginas que se pueden conocer a través del mismo (en adelante, el “Sitio”) implica la aceptación de los términos y condiciones que se detallan a continuación. Crédito Directo publica en su Sitio información relacionada con el tipo de actividad, productos y servicios que ofrece. Crédito Directo se reserva el derecho de modificar la información y los productos y servicios ofrecidos y sus condiciones. El usuario que ingresa a la página de Crédito Directo se compromete a utilizar la misma en forma lícita y de acuerdo a los presentes términos y condiciones. Para el caso de uso de simulaciones o calculadoras para cualquier producto o servicio que Crédito Directo ofrezca, se aclara que estos instrumentos son aproximados y de ninguna manera generan compromiso alguno entre quienes lo utilicen y Crédito Directo. El acceso a otras páginas a través de este Sitio no implicará para Crédito Directo obligación alguna respecto de la información que en estas otras páginas pudieran describirse, siendo esta responsabilidad única y excluyente de las entidades o personas que la provean. Crédito Directo no se responsabiliza por los daños o perjuicios derivados del acceso, uso o mala utilización de los contenidos del Sitio y de esta página en particular. Además, Crédito Directo no se responsabiliza por las interrupciones de este servicio, por cualquier causa que impida el acceso al Sitio. Todos los contenidos del Sitio, incluyendo pero no limitándose a, textos, gráficos, logos, imágenes, íconos y archivos, hardware y software, así como las marcas de Crédito Directo S.A. y www.directo.com.ar, son propiedad de propiedad –o posee licencia de uso de las mismas, según corresponda- y están protegidos por las leyes de Propiedad Intelectual. Crédito Directo prohíbe la copia, duplicación, redistribución, comercialización o cualquier otra actividad que se pueda realizar con los contenidos del Sitio ni aún citando las fuentes, salvo consentimiento por escrito por parte de Crédito Directo. Será facultativo para Crédito Directo, el otorgamiento de cada uno de los bienes, productos y servicios que pudieran ofrecerse en esta página, encontrándose sujeta su aprobación al cumplimiento de las condiciones que la entidad establezca al efecto en cada caso.
-		</p>
+			<form target="_blank" action="https://formsubmit.co/4ef48ced21afdb3d0a285ea0c576c3d9" method="POST">
+				<input type="hidden" name="_subject" value="Nuevo Contacto">
+					<input type="text" name="nombre-apellido" class="form-control"  placeholder="Nombre y Apellido" required>
+					<input type="email" name="email" class="form-control" placeholder="Email" required>
+					<input type="number" name="cellphone" class="form-control" placeholder="Celular (Cód. de área + número)" required>
+                    <input type="number" name="dni" class="form-control" placeholder="DNI" required>
+                    <input type="text" name="direccion" class="form-control" placeholder="Dirección">
+					<input type="text" name="localidad" class="form-control" placeholder="Localidad" required>
+					<input type="text" name="provincia" class="form-control" placeholder="Provincia" required>
+                    <textarea name="mensaje" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+					<input type="hidden" name="_next" value="https://directo.netlify.app/internas/thank-you.html">
+					<input type="hidden" name="_captcha" value="false">
+			  <button type="submit" class="btn btn_large btnBlue btnContacto">Enviar</button>
+			</form>
 		</div>
 	</section>
 	<footer class="">
