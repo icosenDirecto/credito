@@ -595,7 +595,7 @@ input:focus {
 	color: var(--azul);
  	background-color: transparent;
  	border-color: #CEE6FF;
-    box-shadow: 0 0 0 1px #CEE6FF;
+    box-shadow: 0 0 0 2px #CEE6FF;
 }
 
 /* MediaQueries MOBILE */
