@@ -597,16 +597,17 @@ input::placeholder {
 	color: #656566;
 }
 
-input:focus {
+:where (input, textarea):focus {
 	color: var(--azul);
  	background-color: transparent;
  	border-color: #CEE6FF !important;
     box-shadow: 0 0 0 2px #CEE6FF !important;
 }
 
-input:focus-visible {
+:where (input, textarea):focus-visible {
 	outline: none;
 }
+
 
 /* MediaQueries MOBILE */
 @media screen and (max-width: 575px) {
