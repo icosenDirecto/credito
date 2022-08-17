@@ -594,8 +594,8 @@ input::placeholder {
 input:focus {
 	color: var(--azul);
  	background-color: transparent;
- 	border-color: #CEE6FF;
-    box-shadow: 0 0 0 2px #CEE6FF;
+ 	border-color: #CEE6FF !important;
+    box-shadow: 0 0 0 2px #CEE6FF !important;
 }
 
 /* MediaQueries MOBILE */
