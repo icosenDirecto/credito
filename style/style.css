@@ -598,6 +598,10 @@ input:focus {
     box-shadow: 0 0 0 2px #CEE6FF !important;
 }
 
+input:focus-visible {
+	outline: none;
+}
+
 /* MediaQueries MOBILE */
 @media screen and (max-width: 575px) {
 
