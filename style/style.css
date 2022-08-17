@@ -608,6 +608,11 @@ input::placeholder {
 	outline: none;
 }
 
+textarea {
+    padding: 16px !important;
+    height: 120px !important;
+}
+
 
 /* MediaQueries MOBILE */
 @media screen and (max-width: 575px) {
