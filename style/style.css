@@ -578,6 +578,8 @@ form {
 }
 
 .form-control {
+	font-family: var(--secundaria);
+	font-size: var(--squash);
     border: 1.5px solid #E8E8E8;
     border-radius: 16px;
     height: 48px;
@@ -585,15 +587,11 @@ form {
 }
 
 input::placeholder {
-	font-family: var(--secundaria);
-	font-size: var(--squash);
 	color: #656566;
 	padding: 0px 16px;
 }
 
 input:focus {
-	font-family: var(--secundaria);
-	font-size: var(--squash);
 	color:var(--azul);
  background-color: transparent;
  border-color: #CEE6FF;
