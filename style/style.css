@@ -597,14 +597,14 @@ input::placeholder {
 	color: #656566;
 }
 
-:where (input, textarea):focus {
+:where(input, textarea):focus {
 	color: var(--azul);
  	background-color: transparent;
  	border-color: #CEE6FF !important;
     box-shadow: 0 0 0 2px #CEE6FF !important;
 }
 
-:where (input, textarea):focus-visible {
+:where(input, textarea):focus-visible {
 	outline: none;
 }
 
