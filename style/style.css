@@ -583,6 +583,7 @@ form {
     border: 1.5px solid #E8E8E8;
     border-radius: 16px;
     height: 48px;
+	padding: 0px 16px;
     width: 100%;
 }
 
@@ -597,15 +598,6 @@ input:focus {
  border-color: #CEE6FF;
     box-shadow: 0 0 0 1px #CEE6FF;
 }
-
-label {
-	position: absolute;
-	font-family: var(--secundaria);
-	font-size: var(--squash);
-	color: #656566;
-	padding: 16px;
-}
-
 
 /* MediaQueries MOBILE */
 @media screen and (max-width: 575px) {
