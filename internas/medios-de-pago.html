@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Directo</title>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="\style\_base.css">
+	<link rel="stylesheet" type="text/css" href="\style\style.css">
+	<link rel="stylesheet" type="text/css" href="\style\legales.css">
+
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	<!-- Google Symbols -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+	<!-- Icons -->
+	<script src="https://kit.fontawesome.com/09eda8fa81.js" crossorigin="anonymous"></script>
+
+	<!-- Animations -->
+	<script src="\main.js"></script>
+	<script src="\menu.js"></script>
+</head>
+
+<header class="site-header">
+	<!--
+	<div class="headerBanner">
+		<a href="">Conocé nuestra nueva web</a>
+	</div>
+-->
+<div class="grid-header main-container">
+	<div class="logo">
+		<a href="\index.html">
+			<img src="\assets\logo_directo.svg" alt class="logo-directo__header">
+		</a>
+	</div>
+	<div class="navegacion">
+		<a class="navLinks" href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a>
+		<div class="dropdown">
+			<a class="dropbtn navLinks" onclick="myFunction()">Servicios para vos
+				<i class="fa-solid fa-angle-down"></i>
+			</a>
+			<div class="dropdown-content" id="myDropdown">
+				<ul>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Bicicleta</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Hogar</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Motos</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Salud</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Electrodomesticos</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Tecnología</a></li>	
+				</ul>
+			</div>
+		</div> 
+		<a class="navLinks" href="" target="_self">Contacto</a>
+	</div>
+	<div class="comercios">
+		<button class="btn btnHeader btnBlue">
+			<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
+		</button>
+	</div>
+	<div class="header-mobile">
+		<a href="#" class="menu-toggle" onclick="navMobile()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+</div>
+<div class="mobile-main" id="mobile-main">
+	<nav class="mobile-main-nav">
+		<ul>
+			<li>
+				<a href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a>
+				<a href="" target="_self">Servicios para vos</a>
+				<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
+			</li>
+		</ul>
+	</nav>
+</div>
+</header>
+
+<main>
+	<section class="bg_degrade_2 bgCorners">
+		<div class="main-container hero">
+			<div class="hero__title sectionIzquierda">
+				<h1>Conocé los medios de pago</h1>
+				<h5>Encontrá el medio de pago que se ajusta a tus necesidades. Te contamos paso a paso como pagar tu cuota de manera simple y fácil.</h5>
+			    <!-- <button class="btn btn_large btnBlue"><a href="" target="_self">Sumate a Directo</a></button> -->
+			</div>
+
+			<div class="hero__image sectionDerecha">
+				<img src="\assets\114D.png">
+			</div>
+		</div>
+	</section>
+
+	<section class="bgWhite">
+		<div class="main-container modulo">
+			<div class="comerciosTitle">
+				<h2>Ventajas de asociar tu comercio</h2>
+			</div>
+
+			<div class="comerciosFeatures">
+				<div class="comerciosFeaturesList">
+					<i class="fa-solid fa-hand-holding-dollar fa-lg comerciosIconos"></i>
+					<p>Otorgamos Créditos a tus clientes sólo con DNI y en cuotas fijas en pesos</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-receipt fa-lg comerciosIconos"></i>
+					<p>Aumentá tu ticket promedio de ventas, facturá más y empezá a cobrar de inmediato sin costos ni aranceles</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-stopwatch fa-lg comerciosIconos"></i>
+					<p>Otorgale a tus clientes el crédito en sólo 3 minutos, 100% on line y al instante con nuestra operatoria sin papeles</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-handshake-simple fa-lg comerciosIconos"></i>
+					<p>Financiamos el 100 % de la compra de tu cliente y si no nos paga, nosotros te pagamos igual</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-ranking-star fa-lg comerciosIconos"></i>
+					<p>Ya calificamos a 1.000.000 de clientes, con una financiación superior a los 5.000 MILLONES de PESOS</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-bullhorn fa-lg comerciosIconos"></i>
+					<p>Realizamos campañas de marketing para incentivar tus ventas.</p>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<section class="bg-azul">
+		<div class="moduloDestacado">
+			<img class="img123" src="\assets\123.png">
+			<p class="moduloDestacadoText">6000 puntos de venta<br> adheridos en todo el país</p>
+		</div>
+	</section>
+
+	<section class="bgWhite">
+		<div class="main-container modulo">
+			<div class="comerciosTitle">
+				<h2>¿Cómo podes adherir tu comercio?</h2>
+				<p>MUy fácil, con los datos requeridos podes comenzar a operar en solo 72 HS.</p>
+			</div>
+
+			<div class="comerciosFeatures">
+				<div>
+					<i class="fa-solid fa-fingerprint fa-lg comerciosIconos"></i>
+					<p>Identidad del titular del comercio o de su representante</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-magnifying-glass-chart fa-lg comerciosIconos"></i>
+					<p>Documentación respaldatoria de situación patrimonial y/o impositiva</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-stamp fa-lg comerciosIconos"></i>
+					<p>Constancia de inscripción de AFIP</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-file-lines fa-lg comerciosIconos"></i>
+					<p>Habilitación municipal o en trámite</p>
+				</div>
+				<div>
+					<i class="fa-solid fa-landmark fa-lg comerciosIconos"></i>
+					<p>Cuenta bancaria para acreditarte el dinero</p>
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<section class="servicios main-container">
+		<div class="comerciosTitle">
+				<h2>Quiero adherir<br> mi comercio</h2>
+				<p>Dejanos tus datos y nos estaremos comunicando con vos.</p>
+		</div>
+
+			<form target="_blank" action="https://formsubmit.co/4ef48ced21afdb3d0a285ea0c576c3d9" method="POST">
+				<input type="hidden" name="_subject" value="Nueva Adhesión Comercio">
+					<input type="text" id="nombre" name="nombre" class="form-control"  placeholder="Nombre" required>
+					<input type="email" name="email" class="form-control" placeholder="Email" required>
+					<input type="number" name="cellphone" class="form-control" placeholder="Celular (Cód. de área + número)" required>
+					<input type="text" name="company" class="form-control" placeholder="Empresa" required>
+					<input type="text" name="localidad" class="form-control" placeholder="Localidad" required>
+					<input type="text" name="provincia" class="form-control" placeholder="Provincia" required>
+					<input type="hidden" name="_next" value="https://directo.netlify.app/internas/thank-you.html">
+					<input type="hidden" name="_captcha" value="false">
+			  <button type="submit" class="btn btn_large btnBlue btnContacto">Enviar</button>
+			</form>
+	</section>
+
+	<footer class="">
+		<div class="main-container footerEmpresa">
+			<div class="footerEmpresaCol1">
+				<div class="footerEmpresaLogo">
+					<img src="\assets\logo_directo.svg" alt class="footerLogo">
+				</div>
+
+				<div class="footerSocial">
+					<i class="fa-brands fa-facebook-f"><a href="https://www.facebook.com/directo.ar" target="_blank"></a></i>
+					<i class="fa-brands fa-instagram"><a href="https://www.instagram.com/directo.ar/" target="_blank"></a></i>
+					<i class="fa-brands fa-linkedin-in"><a href="https://www.linkedin.com/company/directo-argentina/" target="_blank"></i></a>
+				</div>
+				<div class="footerAfip">
+					<img src="\assets\data-fiscal.webp">
+					<p class="footerAfipText">Crédito Directo S.A. – CUIT N° 30-71210113-6<br>
+						Av. Corrientes 1174, Piso 7°<br>
+					Ciudad Autónoma de Buenos Aires</p>
+				</div>
+			</div>
+			<div class="footerEmpresaCol2">
+				<h4>Productos</h4>
+				<div class="footer_lista">
+					<a class="footer_item">Tu préstamo directo</a>
+					<a class="footer_item">Servicios para vos</a>
+				</div>
+			</div>
+			<div class="footerEmpresaCol3">
+				<h4>Nosotros</h4>
+				<div class="footer_lista">
+					<a class="footer_item" href="\internas\institucional.html">Institucional</a>
+					<a class="footer_item">Grupo GST</a>
+				</div>
+			</div>
+			<div class="footerEmpresaCol4">
+				<h4>Atención al cliente</h4>
+				<div class="footer_lista">
+					<p class="footer_item">0800 345 6790</p>
+					<p class="footer_item">Lunes a viernes de 9 a 20 hs.</p>
+				</div>
+			</div>
+		</div>
+		<div class="main-container footerLegales">	
+			<div>
+				<img class="footerLegalesImagen" src="\assets\banner-bcra.webp">
+			</div>
+
+			<div>
+				<img class="footerLegalesImagen" src="\assets\cnv.webp">
+			</div>
+
+			<div class="footerLegalesLinks">
+				<a href="\internas\tyc.html" class="legales_links__distancia legales_links__division">Términos y Condiciones</a>
+				<a href="\internas\politica_de_privacidad.html" class="legales_links__distancia legales_links__division"> Política de Privacidad</a>
+				<a href="\internas\proteccion_de_datos_personales.html" class="legales_links__distancia legales_links__division">  Protección Datos Personales</a>
+				<a href="\internas\defensa_del_consumidor.html" class="legales_links__distancia legales_links__division">  Defensa Del Consumidor</a>
+				<a href="" class="legales_links__distancia legales_links__division"> Libro de Quejas</a>
+				<a href="" class="legales_links__distancia legales_links__division"> Botón de Arrepentimiento</a>
+				<a href="" class="legales_links__distancia legales_links__division">  Información al Usuario Financiero</a>
+				<a href="" class="legales_links__distancia legales_links__division">   Botón de Baja</a>
+			</div>
+		</div>	
+	</footer>
+</main>
+</html>
