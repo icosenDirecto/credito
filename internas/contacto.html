@@ -80,6 +80,8 @@
 			<form target="_blank" action="https://formsubmit.co/4ef48ced21afdb3d0a285ea0c576c3d9" method="POST">
                 <div class="formGrid">
 				    <input type="hidden" name="_subject" value="Nuevo Contacto">
+                    <input type="hidden" name="_next" value="https://directo.netlify.app/internas/thank-you.html">
+					<input type="hidden" name="_captcha" value="false">
 					<input type="text" name="nombre-apellido" class="form-control"  placeholder="Nombre y Apellido" required>
 					<input type="email" name="email" class="form-control" placeholder="Email" required>
 					<input type="number" name="cellphone" class="form-control" placeholder="Celular (Cód. de área + número)" required>
@@ -87,10 +89,8 @@
                     <input type="text" name="direccion" class="form-control" placeholder="Dirección">
 					<input type="text" name="localidad" class="form-control" placeholder="Localidad" required>
 					<input type="text" name="provincia" class="form-control" placeholder="Provincia" required>
-                    <textarea name="mensaje" id="" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
-					<input type="hidden" name="_next" value="https://directo.netlify.app/internas/thank-you.html">
-					<input type="hidden" name="_captcha" value="false">
                 </div>
+                    <textarea name="mensaje" id="" cols="30" rows="10" class="form-control" placeholder="Mensaje"></textarea>
 			  <button type="submit" class="btn btn_large btnBlue btnContacto">Enviar</button>
 			</form>
 		</div>

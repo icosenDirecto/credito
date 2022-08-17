@@ -587,6 +587,12 @@ form {
     width: 100%;
 }
 
+.formGrid {
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
 input::placeholder {
 	color: #656566;
 }
