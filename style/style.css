@@ -310,6 +310,17 @@ font-family: var(--primaria);
     text-align: center;
 }
 
+.moduleCard {
+	background-color: #fff;
+    border: 1px solid rgba(232,232,232,.7);
+    border-radius: 16px;
+    box-shadow: 0 2px 4px #00000014;
+    position: relative;
+    transition: all .2s ease-in-out;
+    width: 100%;
+    padding: 24px 34px;
+}
+
 .img123 {
 	width: 30%;
 }
