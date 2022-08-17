@@ -589,13 +589,12 @@ form {
 
 input::placeholder {
 	color: #656566;
-	padding: 0px 16px;
 }
 
 input:focus {
-	color:var(--azul);
- background-color: transparent;
- border-color: #CEE6FF;
+	color: var(--azul);
+ 	background-color: transparent;
+ 	border-color: #CEE6FF;
     box-shadow: 0 0 0 1px #CEE6FF;
 }
 
