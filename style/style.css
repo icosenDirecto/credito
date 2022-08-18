@@ -78,6 +78,17 @@ p, .nav-links {
 	color: var(--azul);
 }
 
+/* Small text */
+.smallText {
+	font-size: var(--pingpong);
+}
+
+/* Margenes */
+
+.marginRight {
+	margin-right: 10px;
+}
+
 
 header {
 	position: fixed;
@@ -334,6 +345,11 @@ font-family: var(--primaria);
 .moduleCardAnchor {
     align-self: center;
     padding-top: 16px;
+}
+
+.moduleSmallLink {
+	display: flex;
+    align-items: baseline;
 }
 
 .img123 {
