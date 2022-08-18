@@ -311,6 +311,7 @@ font-family: var(--primaria);
 .moduleCard {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-between;
 	background-color: #fff;
     border: 1px solid rgba(232,232,232,.7);
     border-radius: 16px;
