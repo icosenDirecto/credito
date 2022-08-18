@@ -322,6 +322,10 @@ font-family: var(--primaria);
     padding: 24px 34px;
 }
 
+.highlight {
+	background-color: #C8F8C8 !important;
+}
+
 .moduleCardText {
 	padding-top: ;
 }
