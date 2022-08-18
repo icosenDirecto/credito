@@ -249,6 +249,14 @@ font-family: var(--primaria);
 	grid-row-gap: 40px;
 }
 
+.moduleColumnThree {
+	flex-basis: 60%;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 40px;
+	grid-row-gap: 40px;
+}
+
 .comerciosIconos {
 	display: flex !important;
 	justify-content: center;
