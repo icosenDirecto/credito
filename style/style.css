@@ -323,6 +323,7 @@ font-family: var(--primaria);
 }
 
 .highlight {
+	justify-content: flex-start !important;
 	background-color: #C8F8C8 !important;
 }
 
