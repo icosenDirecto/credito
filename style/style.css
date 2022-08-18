@@ -309,6 +309,8 @@ font-family: var(--primaria);
 }
 
 .moduleCard {
+	display: flex;
+	flex-direction: column;
 	background-color: #fff;
     border: 1px solid rgba(232,232,232,.7);
     border-radius: 16px;
@@ -317,6 +319,15 @@ font-family: var(--primaria);
     transition: all .2s ease-in-out;
     width: 100%;
     padding: 24px 34px;
+}
+
+.moduleCardText {
+	padding-top: ;
+}
+
+.moduleCardAnchor {
+    align-self: center;
+    padding-top: 16px;
 }
 
 .img123 {
@@ -335,7 +346,7 @@ font-family: var(--primaria);
 }
 
 .iconMedium {
-	
+
 }
 
 /* fa-lg */
