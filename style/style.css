@@ -79,6 +79,7 @@ p, .nav-links {
 }
 
 /* Small text */
+
 .smallText {
 	font-size: var(--pingpong);
 }
