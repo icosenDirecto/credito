@@ -792,6 +792,10 @@ textarea {
 		flex-direction: column;
 	}
 
+	.hero__title, .servicios__title {
+		width: auto;
+	}
+
 	/* MAIN CONTAINER */
 
 	.main-container {
@@ -821,6 +825,11 @@ textarea {
 
 	button {
 		width: auto;
+	}
+
+	.btn_large {
+		padding: 16px 0;
+		width: 100%;
 	}
 
 	/* IMAGES */
