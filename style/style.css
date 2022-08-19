@@ -853,14 +853,30 @@ textarea {
 
 	/* FOOTER */
 
-	footer {
-		padding: 40px 20px 20px;
-	}
-
 	.footerEmpresa, .footerLegales {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+	}
+
+	.footerEmpresa {
+		margin-bottom: 24px;
+	}
+
+	.footerEmpresaLogo {
+		margin-bottom: 16px;
+	}
+
+	.footerSocial {
+		margin-bottom: 36px;
+	}
+
+	.footerEmpresaCol1, .footerEmpresaCol2, .footerEmpresaCol3, .footerEmpresaCol4  {
+		margin-bottom: 24px;
+	}
+
+	.footer_item {
+		margin-top: 16px;
 	}
 
 	.footerLegalesLinks {
