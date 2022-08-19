@@ -776,6 +776,10 @@ textarea {
 		margin: 0 auto;
 	}
 
+	.mobileNav {
+		margin-bottom: 24px;
+	}
+
 	.open {
 		transform: translateY(0);
 	}
@@ -831,6 +835,12 @@ textarea {
 	.btn_medium {
 		padding: 16px 24px;
 		width: 100%;
+	}
+
+	/* LINKS */
+
+	li a {
+		font-size: var(--golf);
 	}
 
 	/* IMAGES */
