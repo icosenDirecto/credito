@@ -288,7 +288,9 @@ font-family: var(--primaria);
 }
 
 .moduleCenter {
-	justify-content: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 60px;
 }
 
 .moduleSpace {
