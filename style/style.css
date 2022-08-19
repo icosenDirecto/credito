@@ -847,6 +847,10 @@ textarea {
 		display: none;
 	}
 
+	.mediosPago > img {
+		width: 80%;
+	}
+
 	/* FOOTER */
 
 	footer {
