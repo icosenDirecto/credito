@@ -814,6 +814,7 @@ textarea {
 
 	.comerciosTitle {
 		flex-basis: auto;
+		padding: 0 24px;
 	}
 
 	.comerciosTitle h2, p {
@@ -849,6 +850,10 @@ textarea {
 		font-size: var(--tenis);
 		font-weight: 600;
 		line-height: 108%;
+	}
+
+	h2 {
+		font-size: var(--handball);
 	}
 
 	h3 {
