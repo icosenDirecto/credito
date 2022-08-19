@@ -804,6 +804,19 @@ textarea {
 		flex-basis: auto;
 	}
 
+	/* FONTS */
+
+	h1 {
+		font-size: var(--tenis);
+		font-weight: 600;
+		line-height: 108%;
+	}
+
+	h3 {
+		font-size: var(--squash);
+		font-weight: 500;
+	}
+
 	/* BUTTON */
 
 	button {
