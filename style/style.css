@@ -287,6 +287,10 @@ font-family: var(--primaria);
 	/* align-items: flex-start; */
 }
 
+.moduleCenter {
+	justify-content: center;
+}
+
 .moduleSpace {
 	padding: 64px 0;
 }
