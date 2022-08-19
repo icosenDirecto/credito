@@ -832,6 +832,11 @@ textarea {
 		width: 100%;
 	}
 
+	.btn_medium {
+		padding: 16px 24px;
+		width: 100%;
+	}
+
 	/* IMAGES */
 
 	.hero__image {
