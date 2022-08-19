@@ -812,6 +812,14 @@ textarea {
 		grid-template-columns: 1fr;
 	}
 
+	.comerciosTitle {
+		flex-basis: auto;
+	}
+
+	.comerciosTitle h2, p {
+		color: var(--blanco);
+	}
+
 	/* MAIN CONTAINER */
 
 	.main-container {
