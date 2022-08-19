@@ -715,7 +715,7 @@ textarea {
 	.grid-header {
 		display: flex;
 		align-items: flex-start;
-		margin: 0px 25px;
+		margin: 0px 24px;
 	}
 	.logo {
 		z-index: 99;
@@ -736,7 +736,7 @@ textarea {
 	.menu-toggle {
 		position: fixed;
 		top: 40px;
-		right: 40px;
+		right: 24px;
 		z-index: 3;
 		width: 28px;
 		height: 19px;
@@ -791,6 +791,26 @@ textarea {
 	.serviciosMediosPago {
 		flex-direction: column;
 	}
+
+	/* MAIN CONTAINER */
+
+	.main-container {
+		margin: 0 24px;
+	}
+
+	/* MODULES */
+
+	.moduleLarge {
+		flex-basis: auto;
+	}
+
+	/* BUTTON */
+
+	button {
+		width: auto;
+	}
+
+	/* FOOTER */
 
 	footer {
 		padding: 40px 20px 20px;
