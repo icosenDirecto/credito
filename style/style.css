@@ -712,6 +712,10 @@ textarea {
 /* MediaQueries MOBILE */
 @media screen and (max-width: 575px) {
 
+	header {
+		height: 64px;
+	}
+
 	.grid-header {
 		display: flex;
 		align-items: flex-start;
@@ -735,7 +739,7 @@ textarea {
 
 	.menu-toggle {
 		position: fixed;
-		top: 40px;
+		top: 24px;
 		right: 24px;
 		z-index: 3;
 		width: 28px;
