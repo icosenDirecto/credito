@@ -796,6 +796,21 @@ textarea {
 		width: auto;
 	}
 
+	.sectionIzquierda {
+		flex-basis: auto;
+	}
+
+	.modulo {
+		display: flex;
+    flex-direction: column;
+	padding: 64px 0;
+	}
+
+	.comerciosFeatures {
+		flex-basis: auto;
+		grid-template-columns: 1fr;
+	}
+
 	/* MAIN CONTAINER */
 
 	.main-container {
