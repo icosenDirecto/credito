@@ -359,10 +359,6 @@ font-family: var(--primaria);
 	background-color: #C8F8C8 !important;
 }
 
-.moduleCardText {
-	padding-top: ;
-}
-
 .moduleCardAnchor {
     align-self: center;
     padding-top: 16px;
@@ -386,10 +382,6 @@ font-family: var(--primaria);
 .iconSmall {
 	width: 32px;
     height: 32px;
-}
-
-.iconMedium {
-
 }
 
 /* fa-lg */
@@ -759,7 +751,7 @@ textarea {
 	}
 
 	.mobile-main {
-		background-color: var(--blanco);
+		background-color: var(--celeste);
 		position: fixed;
 		top: 0;
 		left: 0;
