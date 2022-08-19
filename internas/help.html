@@ -31,41 +31,54 @@
 		<a href="">Conocé nuestra nueva web</a>
 	</div>
 -->
-	<div class="grid-header main-container">
-		<div class="logo">
-			<a href="\index.html">
-				<img src="\assets\logo_directo.svg" alt class="logo-directo__header">
-			</a>
-		</div>
-		<div class="navegacion">
-			<a href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self"><p>Tu préstamo directo</p></a>
-			<a href="" target="_self"><p>Servicios para vos</p></a>
-			<a href="" target="_self"><p>Contacto</p></a>
-		</div>
-		<div class="comercios">
-			<button class="btn btnHeader btnBlue">
-				<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
-			</button>
-		</div>
-		<div class="header-mobile">
-			<a href="#" class="menu-toggle">
-				<span></span>
-				<span></span>
-				<span></span>
-			</a>
-		</div>
+<div class="grid-header main-container">
+	<div class="logo">
+		<a href="\index.html">
+			<img src="\assets\logo_directo.svg" alt class="logo-directo__header">
+		</a>
 	</div>
-	<div class="mobile-main">
-		<nav class="mobile-main-nav">
-			<ul>
-				<li>
-					<a href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a>
-					<a href="" target="_self">Servicios para vos</a>
-					<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
-				</li>
-			</ul>
-		</nav>
+	<div class="navegacion">
+		<a class="navLinks" href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a>
+		<div class="dropdown">
+			<a class="dropbtn navLinks" onclick="myFunction()">Servicios para vos
+				<i class="fa-solid fa-angle-down"></i>
+			</a>
+			<div class="dropdown-content" id="myDropdown">
+				<ul>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Bicicleta</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Hogar</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Motos</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Salud</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Electrodomesticos</a></li>
+					<li class="navSubLine"><a class="navSubLinks" href="#">Tecnología</a></li>	
+				</ul>
+			</div>
+		</div> 
+		<a class="navLinks" href="/internas/contacto.html" target="_self">Contacto</a>
 	</div>
+	<div class="comercios">
+		<button class="btn btnHeader btnBlue">
+			<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
+		</button>
+	</div>
+	<div class="header-mobile">
+		<a href="#" class="menu-toggle" onclick="navMobile()">
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+</div>
+<div class="mobile-main" id="mobile-main">
+	<nav class="mobile-main-nav">
+		<ul>
+				<li class="mobileNav"><a href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a></li>
+				<li class="mobileNav"><a href="/internas/asistencias.html" target="_self">Servicios para vos</a></li>
+				<li class="mobileNav mobileNavComercios"><a href="https://micomercio.directo.com.ar/Login" target="_self">App Comercios</a></li>
+				<li class="mobileNav"><a href="/internas/contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+</div>
 </header>
 
 <main>
