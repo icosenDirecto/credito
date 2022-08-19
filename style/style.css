@@ -227,6 +227,10 @@ font-family: var(--primaria);
 	flex-basis: 45%;
 }
 
+.center {
+	text-align: center;
+}
+
 /* Modulo */
 
 .modulo {
