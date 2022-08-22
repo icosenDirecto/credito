@@ -81,7 +81,7 @@ p, .nav-links {
 
 /* Small text */
 
-.smallText {
+.textSmall {
 	font-size: var(--pingpong);
 }
 
