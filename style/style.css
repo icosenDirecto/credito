@@ -370,6 +370,12 @@ font-family: var(--primaria);
     align-items: baseline;
 }
 
+.moduleGap {
+	display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
 .img123 {
 	width: 30%;
 }
