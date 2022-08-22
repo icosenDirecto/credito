@@ -355,6 +355,11 @@ font-family: var(--primaria);
     padding: 24px 34px;
 }
 
+.moduleCardSingle {
+	display: flex;
+    column-gap: 16px;
+}
+
 .highlight {
 	justify-content: flex-start !important;
 	background-color: #C8F8C8 !important;
