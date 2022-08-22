@@ -817,8 +817,8 @@ textarea {
 		padding: 0 24px;
 	}
 
-	.comerciosTitle h2, p {
-		color: var(--blanco);
+	.comerciosTitle h2, .comerciosTitle p {
+		color: var(--blanco) !important;
 	}
 
 	/* MAIN CONTAINER */
