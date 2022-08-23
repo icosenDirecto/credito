@@ -851,6 +851,10 @@ textarea {
 
 	/* MODULES */
 
+	.module {
+		flex-direction: column;
+	}
+
 	.moduleLarge {
 		flex-basis: auto;
 	}
