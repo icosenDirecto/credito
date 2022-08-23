@@ -866,6 +866,13 @@ textarea {
     row-gap: 16px;
 	}
 
+	.moduleColumnThree {
+		flex-basis: auto;
+		grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+		grid-column-gap: 24px;
+		grid-row-gap: 24px;
+	}
+
 	/* FONTS */
 
 	h1 {
