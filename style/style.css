@@ -926,6 +926,13 @@ textarea {
 		width: 80%;
 	}
 
+	/* FORMS */
+
+	.formGrid {
+		display: flex;
+		flex-direction: column;
+	}
+
 	/* FOOTER */
 
 	.footerEmpresa, .footerLegales {
