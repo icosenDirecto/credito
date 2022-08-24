@@ -819,11 +819,16 @@ textarea {
 	}
 
 	.hero, .servicios {
-		padding: 36px 0;
+		padding: 40px 0;
 	}
 
 	.hero__title, .servicios__title {
 		width: auto;
+	}
+
+	.heroLegales {
+		padding: 42px 0px 24px;
+		margin-bottom: 24px;
 	}
 
 	.sectionIzquierda {
@@ -891,6 +896,10 @@ textarea {
 		grid-row-gap: 24px;
 	}
 
+	.moduleSpace {
+		padding: 32px 0;
+	}
+
 	/* BACKGROUNDS */
 
 	.bgCorners {
@@ -913,6 +922,13 @@ textarea {
 	h3 {
 		font-size: var(--squash);
 		font-weight: 500;
+	}
+
+	h5 {
+		color: var(--blanco);
+    	font-size: var(--squash);
+    	line-height: 1.25;
+    	font-weight: 300;
 	}
 
 	/* BUTTON */
