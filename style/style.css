@@ -818,6 +818,10 @@ textarea {
 		flex-direction: column;
 	}
 
+	.hero, .servicios {
+		padding: 36px 0;
+	}
+
 	.hero__title, .servicios__title {
 		width: auto;
 	}
@@ -887,6 +891,13 @@ textarea {
 		grid-row-gap: 24px;
 	}
 
+	/* BACKGROUNDS */
+
+	.bgCorners {
+		border-radius: 0px 0px 42px 42px;
+    	margin-top: 64px;
+	}
+
 	/* FONTS */
 
 	h1 {
@@ -911,6 +922,7 @@ textarea {
 	}
 
 	.btn_large {
+		margin-top: 64px;
 		padding: 16px 0;
 		width: 100%;
 	}
