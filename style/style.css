@@ -505,8 +505,7 @@ button {
 }
 
 .bg_degrade_2 {
-	background: rgb(0,68,137);
-	background: linear-gradient(45deg, rgba(0,68,137,1) 0%, rgba(112,175,242,1) 35%, rgba(206,230,255,1) 100%);
+	background: linear-gradient(135deg, rgba(0,105,215,1) 0%, rgba(0,78,158,1) 40%, rgba(0,68,137,0.90) 60%, rgba(71,209,75,1) 100%);
 }
 
 .bg_degrade_3 {
