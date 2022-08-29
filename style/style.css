@@ -714,6 +714,15 @@ form {
 	align-items: end;
 }
 
+.formCheckbox {
+	display: flex;
+	margin: auto 0;
+}
+
+.formCheckboxItem {
+	margin-left: 24px;
+}
+
 input::placeholder {
 	color: #656566;
 }
