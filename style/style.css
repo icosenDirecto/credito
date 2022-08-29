@@ -398,6 +398,21 @@ font-family: var(--primaria);
     margin-bottom: 36px;
 }
 
+.moduleVideo {
+	position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+
+.moduleVideoIframe {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .img123 {
 	width: 30%;
 }
