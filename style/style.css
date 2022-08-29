@@ -70,7 +70,7 @@ h5 {
 	font-weight: 500;
 }
 
-p, .nav-links {
+p, .nav-links, li {
 	font-family: var(--primaria);
 	font-size: var(--squash);
 	font-weight: 500;
