@@ -383,6 +383,13 @@ font-family: var(--primaria);
     row-gap: 16px;
 }
 
+.moduleLegales {
+	display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    margin-bottom: 36px;
+}
+
 .img123 {
 	width: 30%;
 }
