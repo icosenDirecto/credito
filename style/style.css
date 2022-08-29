@@ -386,7 +386,6 @@ font-family: var(--primaria);
 .moduleLegalesHeader {
 	display: flex;
     flex-direction: column;
-    align-items: center;
     padding: 0 120px;
     row-gap: 24px;
 }
