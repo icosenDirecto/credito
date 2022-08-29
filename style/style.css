@@ -723,6 +723,11 @@ form {
 	margin-left: 24px;
 }
 
+.formCheckboxText {
+	font-family: var(--primaria);
+    font-size: var(--squash);
+}
+
 input::placeholder {
 	color: #656566;
 }
