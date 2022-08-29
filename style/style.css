@@ -291,6 +291,7 @@ font-family: var(--primaria);
 	display: flex;
 	justify-content: space-between;
 	/* align-items: flex-start; */
+	padding: 72px 0;
 }
 
 .moduleCenter {
