@@ -1,83 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Directo</title>
+
+	<!-- Hola! -->
+	<title>Crédito Directo</title>
+	<meta name="description" content="Tu préstamo sin tantas vueltas. 100% online fácil y rápido.">
+
+	<!-- Social -->
+	<meta property="og:title" content="Crédito Directo" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://directo.com.ar/" />
+	<meta property="og:description" content="Tu préstamo sin tantas vueltas. 100% online fácil y rápido.">
+	<meta property="og:image" content="#" />
+
+	<!-- Favicon -->
+	<link rel="icon" href="/assets/favIcon.png">
+
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="\style\_base.css">
-	<link rel="stylesheet" type="text/css" href="\style\style.css">
-	<link rel="stylesheet" type="text/css" href="\style\legales.css">
+	<link rel="stylesheet" type="text/css" href="/style/_base.css">
+	<link rel="stylesheet" type="text/css" href="/style/style.css">
+	<link rel="stylesheet" type="text/css" href="/style/legales.css">
 
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
 
 	<!-- Google Symbols -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
 	<!-- Icons -->
 	<script src="https://kit.fontawesome.com/09eda8fa81.js" crossorigin="anonymous"></script>
 
 	<!-- Animations -->
-	<script src="\main.js"></script>
-	<script src="\menu.js"></script>
+	<script src="/main.js"></script>
+	<script src="/menu.js"></script>
+
 </head>
 
-<header class="site-header">
-	<!--
-	<div class="headerBanner">
-		<a href="">Conocé nuestra nueva web</a>
-	</div>
--->
-<div class="grid-header main-container">
-	<div class="logo">
-		<a href="\index.html">
-			<img src="\assets\logo_directo.svg" alt class="logo-directo__header">
-		</a>
-	</div>
-	<div class="navegacion">
-		<a class="navLinks" href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a>
-		<div class="dropdown">
-			<a class="dropbtn navLinks" onclick="myFunction()">Servicios para vos
-				<i class="fa-solid fa-angle-down"></i>
-			</a>
-			<div class="dropdown-content" id="myDropdown">
-				<ul>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Bicicleta</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Hogar</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Motos</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Salud</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Electrodomesticos</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Tecnología</a></li>	
-				</ul>
+<body>
+	<header class="site-header">
+		<!--
+		<div class="headerBanner">
+			<a href="">Conocé nuestra nueva web</a>
+		</div>
+	-->
+		<div class="grid-header main-container">
+			<div class="logo">
+				<a href="\index.html">
+					<img src="\assets\logo_directo.svg" alt class="logo-directo__header">
+				</a>
 			</div>
-		</div> 
-		<a class="navLinks" href="/internas/contacto.html" target="_self">Contacto</a>
-	</div>
-	<div class="comercios">
-		<button class="btn btnHeader btnBlue">
-			<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
-		</button>
-	</div>
-	<div class="header-mobile">
-		<a href="#" class="menu-toggle" onclick="navMobile()">
-			<span></span>
-			<span></span>
-			<span></span>
-		</a>
-	</div>
-</div>
-<div class="mobile-main" id="mobile-main">
-	<nav class="mobile-main-nav">
-		<ul>
-				<li class="mobileNav"><a href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a></li>
-				<li class="mobileNav"><a href="/internas/asistencias.html" target="_self">Servicios para vos</a></li>
-				<li class="mobileNav mobileNavComercios"><a href="https://micomercio.directo.com.ar/Login" target="_self">App Comercios</a></li>
-				<li class="mobileNav"><a href="/internas/contacto.html">Contacto</a></li>
-		</ul>
-	</nav>
-</div>
-</header>
+			<div class="navegacion">
+				<a class="navLinks" href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True"
+					target="_self">Tu préstamo directo</a>
+				<div class="dropdown">
+					<a class="navLinks" href="/internas/asistencias.html">Servicios para vos</a>
+				</div>
+				<a class="navLinks" href="/internas/contacto.html" target="_self">Contacto</a>
+			</div>
+			<div class="comercios">
+				<button class="btn btnHeader btnBlue">
+					<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
+				</button>
+			</div>
+			<div class="header-mobile">
+				<a href="#" class="menu-toggle" onclick="navMobile()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+		</div>
+		<div class="mobile-main" id="mobile-main">
+			<nav class="mobile-main-nav">
+				<ul>
+					<li class="mobileNav"><a href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True"
+							target="_self">Tu préstamo directo</a></li>
+					<li class="mobileNav"><a href="/internas/asistencias.html" target="_self">Servicios para vos</a>
+					</li>
+					<li class="mobileNav mobileNavComercios"><a href="https://micomercio.directo.com.ar/Login"
+							target="_self">App Comercios</a></li>
+					<li class="mobileNav"><a href="/internas/contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 
 <main>
 	<section class="bg-azul bgCorners">
@@ -170,5 +184,7 @@
 			</div>
 		</div>	
 	</footer>
-
 </main>
+</body>
+
+</html>

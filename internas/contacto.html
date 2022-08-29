@@ -1,174 +1,201 @@
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Directo</title>
+
+	<!-- Hola! -->
+	<title>Crédito Directo</title>
+	<meta name="description" content="Tu préstamo sin tantas vueltas. 100% online fácil y rápido.">
+
+	<!-- Social -->
+	<meta property="og:title" content="Crédito Directo" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://directo.com.ar/" />
+	<meta property="og:description" content="Tu préstamo sin tantas vueltas. 100% online fácil y rápido.">
+	<meta property="og:image" content="#" />
+
+	<!-- Favicon -->
+	<link rel="icon" href="/assets/favIcon.png">
+
 	<!-- CSS -->
-	<link rel="stylesheet" type="text/css" href="\style\_base.css">
-	<link rel="stylesheet" type="text/css" href="\style\style.css">
-	<link rel="stylesheet" type="text/css" href="\style\legales.css">
+	<link rel="stylesheet" type="text/css" href="/style/_base.css">
+	<link rel="stylesheet" type="text/css" href="/style/style.css">
+	<link rel="stylesheet" type="text/css" href="/style/legales.css">
 
 	<!-- Google Fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&family=Public+Sans:wght@400;500;600;700&display=swap"
+		rel="stylesheet">
 
 	<!-- Google Symbols -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
 	<!-- Icons -->
 	<script src="https://kit.fontawesome.com/09eda8fa81.js" crossorigin="anonymous"></script>
 
 	<!-- Animations -->
-	<script src="\main.js"></script>
-	<script src="\menu.js"></script>
+	<script src="/main.js"></script>
+	<script src="/menu.js"></script>
+
 </head>
 
-<header class="site-header">
-	<!--
-	<div class="headerBanner">
-		<a href="">Conocé nuestra nueva web</a>
-	</div>
--->
-<div class="grid-header main-container">
-	<div class="logo">
-		<a href="\index.html">
-			<img src="\assets\logo_directo.svg" alt class="logo-directo__header">
-		</a>
-	</div>
-	<div class="navegacion">
-		<a class="navLinks" href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a>
-		<div class="dropdown">
-			<a class="dropbtn navLinks" onclick="myFunction()">Servicios para vos
-				<i class="fa-solid fa-angle-down"></i>
-			</a>
-			<div class="dropdown-content" id="myDropdown">
+<body>
+	<header class="site-header">
+		<!--
+		<div class="headerBanner">
+			<a href="">Conocé nuestra nueva web</a>
+		</div>
+	-->
+		<div class="grid-header main-container">
+			<div class="logo">
+				<a href="\index.html">
+					<img src="\assets\logo_directo.svg" alt class="logo-directo__header">
+				</a>
+			</div>
+			<div class="navegacion">
+				<a class="navLinks" href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True"
+					target="_self">Tu préstamo directo</a>
+				<div class="dropdown">
+					<a class="navLinks" href="/internas/asistencias.html">Servicios para vos</a>
+				</div>
+				<a class="navLinks" href="/internas/contacto.html" target="_self">Contacto</a>
+			</div>
+			<div class="comercios">
+				<button class="btn btnHeader btnBlue">
+					<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
+				</button>
+			</div>
+			<div class="header-mobile">
+				<a href="#" class="menu-toggle" onclick="navMobile()">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+		</div>
+		<div class="mobile-main" id="mobile-main">
+			<nav class="mobile-main-nav">
 				<ul>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Bicicleta</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Hogar</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Motos</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Salud</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Electrodomesticos</a></li>
-					<li class="navSubLine"><a class="navSubLinks" href="#">Tecnología</a></li>	
+					<li class="mobileNav"><a href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True"
+							target="_self">Tu préstamo directo</a></li>
+					<li class="mobileNav"><a href="/internas/asistencias.html" target="_self">Servicios para vos</a>
+					</li>
+					<li class="mobileNav mobileNavComercios"><a href="https://micomercio.directo.com.ar/Login"
+							target="_self">App Comercios</a></li>
+					<li class="mobileNav"><a href="/internas/contacto.html">Contacto</a></li>
 				</ul>
-			</div>
-		</div> 
-		<a class="navLinks" href="/internas/contacto.html" target="_self">Contacto</a>
-	</div>
-	<div class="comercios">
-		<button class="btn btnHeader btnBlue">
-			<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
-		</button>
-	</div>
-	<div class="header-mobile">
-		<a href="#" class="menu-toggle" onclick="navMobile()">
-			<span></span>
-			<span></span>
-			<span></span>
-		</a>
-	</div>
-</div>
-<div class="mobile-main" id="mobile-main">
-	<nav class="mobile-main-nav">
-		<ul>
-				<li class="mobileNav"><a href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True" target="_self">Tu préstamo directo</a></li>
-				<li class="mobileNav"><a href="/internas/asistencias.html" target="_self">Servicios para vos</a></li>
-				<li class="mobileNav mobileNavComercios"><a href="https://micomercio.directo.com.ar/Login" target="_self">App Comercios</a></li>
-				<li class="mobileNav"><a href="/internas/contacto.html">Contacto</a></li>
-		</ul>
-	</nav>
-</div>
-</header>
-
-<main>
-	<section class="bg-azul bgCorners">
-		<div class="main-container heroLegales">
-			<div class="hero__title">
-			<h1>Contacto</h1>
+			</nav>
 		</div>
-		</div>
-	</section>
+	</header>
 
-	<section class="legales">
-		<div class="main-container">
-			<form target="_blank" action="https://formsubmit.co/4ef48ced21afdb3d0a285ea0c576c3d9" method="POST">
-                <div class="formGrid">
-				    <input type="hidden" name="_subject" value="Nuevo Contacto">
-                    <input type="hidden" name="_next" value="https://directo.netlify.app/internas/thank-you.html">
-					<input type="hidden" name="_captcha" value="false">
-					<input type="text" name="nombre-apellido" class="form-control div1"  placeholder="Nombre y Apellido" required>
-					<input type="email" name="email" class="form-control div2" placeholder="Email" required>
-					<input type="number" name="cellphone" class="form-control div3" placeholder="Celular (Cód. de área + número)" required>
-                    <input type="number" name="dni" class="form-control div4" placeholder="DNI" required>
-                    <input type="text" name="direccion" class="form-control div5" placeholder="Dirección">
-					<input type="text" name="localidad" class="form-control div6" placeholder="Localidad" required>
-					<input type="text" name="provincia" class="form-control div7" placeholder="Provincia" required>
-                    <textarea name="mensaje" id="" cols="30" rows="10" class="form-control div8" placeholder="Mensaje"></textarea>
-                    <button type="submit" class="btn btn_large btnBlue btnContacto div9">Enviar</button>
-                </div>
-			</form>
-		</div>
-	</section>
-	<footer class="">
-		<div class="main-container footerEmpresa">
-			<div class="footerEmpresaCol1">
-				<div class="footerEmpresaLogo">
-					<img src="\assets\logo_directo.svg" alt class="footerLogo">
+	<main>
+		<section class="bg-azul bgCorners">
+			<div class="main-container heroLegales">
+				<div class="hero__title">
+					<h1>Contacto</h1>
+				</div>
+			</div>
+		</section>
+
+		<section class="legales">
+			<div class="main-container">
+				<form target="_blank" action="https://formsubmit.co/4ef48ced21afdb3d0a285ea0c576c3d9" method="POST">
+					<div class="formGrid">
+						<input type="hidden" name="_subject" value="Nuevo Contacto">
+						<input type="hidden" name="_next" value="https://directo.netlify.app/internas/thank-you.html">
+						<input type="hidden" name="_captcha" value="false">
+						<input type="text" name="nombre-apellido" class="form-control div1"
+							placeholder="Nombre y Apellido" required>
+						<input type="email" name="email" class="form-control div2" placeholder="Email" required>
+						<input type="number" name="cellphone" class="form-control div3"
+							placeholder="Celular (Cód. de área + número)" required>
+						<input type="number" name="dni" class="form-control div4" placeholder="DNI" required>
+						<input type="text" name="direccion" class="form-control div5" placeholder="Dirección">
+						<input type="text" name="localidad" class="form-control div6" placeholder="Localidad" required>
+						<input type="text" name="provincia" class="form-control div7" placeholder="Provincia" required>
+						<textarea name="mensaje" id="" cols="30" rows="10" class="form-control div8"
+							placeholder="Mensaje"></textarea>
+						<button type="submit" class="btn btn_large btnBlue btnContacto div9">Enviar</button>
+					</div>
+				</form>
+			</div>
+		</section>
+		<footer class="">
+			<div class="main-container footerEmpresa">
+				<div class="footerEmpresaCol1">
+					<div class="footerEmpresaLogo">
+						<img src="\assets\logo_directo.svg" alt class="footerLogo">
+					</div>
+
+					<div class="footerSocial">
+						<i class="fa-brands fa-facebook-f"><a href="https://www.facebook.com/directo.ar"
+								target="_blank"></a></i>
+						<i class="fa-brands fa-instagram"><a href="https://www.instagram.com/directo.ar/"
+								target="_blank"></a></i>
+						<i class="fa-brands fa-linkedin-in"><a
+								href="https://www.linkedin.com/company/directo-argentina/" target="_blank"></i></a>
+					</div>
+					<div class="footerAfip">
+						<img src="\assets\data-fiscal.webp">
+						<p class="footerAfipText">Crédito Directo S.A. – CUIT N° 30-71210113-6<br>
+							Av. Corrientes 1174, Piso 7°<br>
+							Ciudad Autónoma de Buenos Aires</p>
+					</div>
+				</div>
+				<div class="footerEmpresaCol2">
+					<h4>Productos</h4>
+					<div class="footer_lista">
+						<a class="footer_item">Tu préstamo directo</a>
+						<a class="footer_item">Servicios para vos</a>
+					</div>
+				</div>
+				<div class="footerEmpresaCol3">
+					<h4>Nosotros</h4>
+					<div class="footer_lista">
+						<a class="footer_item" href="\internas\institucional.html">Institucional</a>
+						<a class="footer_item">Grupo GST</a>
+					</div>
+				</div>
+				<div class="footerEmpresaCol4">
+					<h4>Atención al cliente</h4>
+					<div class="footer_lista">
+						<p class="footer_item">0800 345 6790</p>
+						<p class="footer_item">Lunes a viernes de 9 a 20 hs.</p>
+					</div>
+				</div>
+			</div>
+			<div class="main-container footerLegales">
+				<div>
+					<img class="footerLegalesImagen" src="\assets\banner-bcra.webp">
 				</div>
 
-				<div class="footerSocial">
-					<i class="fa-brands fa-facebook-f"><a href="https://www.facebook.com/directo.ar" target="_blank"></a></i>
-					<i class="fa-brands fa-instagram"><a href="https://www.instagram.com/directo.ar/" target="_blank"></a></i>
-					<i class="fa-brands fa-linkedin-in"><a href="https://www.linkedin.com/company/directo-argentina/" target="_blank"></i></a>
+				<div>
+					<img class="footerLegalesImagen" src="\assets\cnv.webp">
 				</div>
-				<div class="footerAfip">
-					<img src="\assets\data-fiscal.webp">
-					<p class="footerAfipText">Crédito Directo S.A. – CUIT N° 30-71210113-6<br>
-						Av. Corrientes 1174, Piso 7°<br>
-					Ciudad Autónoma de Buenos Aires</p>
-				</div>
-			</div>
-			<div class="footerEmpresaCol2">
-				<h4>Productos</h4>
-				<div class="footer_lista">
-					<a class="footer_item">Tu préstamo directo</a>
-					<a class="footer_item">Servicios para vos</a>
-				</div>
-			</div>
-			<div class="footerEmpresaCol3">
-				<h4>Nosotros</h4>
-				<div class="footer_lista">
-					<a class="footer_item" href="\internas\institucional.html">Institucional</a>
-					<a class="footer_item">Grupo GST</a>
-				</div>
-			</div>
-			<div class="footerEmpresaCol4">
-				<h4>Atención al cliente</h4>
-				<div class="footer_lista">
-					<p class="footer_item">0800 345 6790</p>
-					<p class="footer_item">Lunes a viernes de 9 a 20 hs.</p>
-				</div>
-			</div>
-		</div>
-		<div class="main-container footerLegales">	
-			<div>
-				<img class="footerLegalesImagen" src="\assets\banner-bcra.webp">
-			</div>
 
-			<div>
-				<img class="footerLegalesImagen" src="\assets\cnv.webp">
+				<div class="footerLegalesLinks">
+					<a href="\internas\tyc.html" class="legales_links__distancia legales_links__division">Términos y
+						Condiciones</a>
+					<a href="\internas\politica_de_privacidad.html"
+						class="legales_links__distancia legales_links__division"> Política de Privacidad</a>
+					<a href="\internas\proteccion_de_datos_personales.html"
+						class="legales_links__distancia legales_links__division"> Protección Datos Personales</a>
+					<a href="\internas\defensa_del_consumidor.html"
+						class="legales_links__distancia legales_links__division"> Defensa Del Consumidor</a>
+					<a href="" class="legales_links__distancia legales_links__division"> Libro de Quejas</a>
+					<a href="" class="legales_links__distancia legales_links__division"> Botón de Arrepentimiento</a>
+					<a href="" class="legales_links__distancia legales_links__division"> Información al Usuario
+						Financiero</a>
+					<a href="" class="legales_links__distancia legales_links__division"> Botón de Baja</a>
+				</div>
 			</div>
+		</footer>
+	</main>
+</body>
 
-			<div class="footerLegalesLinks">
-				<a href="\internas\tyc.html" class="legales_links__distancia legales_links__division">Términos y Condiciones</a>
-				<a href="\internas\politica_de_privacidad.html" class="legales_links__distancia legales_links__division"> Política de Privacidad</a>
-				<a href="\internas\proteccion_de_datos_personales.html" class="legales_links__distancia legales_links__division">  Protección Datos Personales</a>
-				<a href="\internas\defensa_del_consumidor.html" class="legales_links__distancia legales_links__division">  Defensa Del Consumidor</a>
-				<a href="" class="legales_links__distancia legales_links__division"> Libro de Quejas</a>
-				<a href="" class="legales_links__distancia legales_links__division"> Botón de Arrepentimiento</a>
-				<a href="" class="legales_links__distancia legales_links__division">  Información al Usuario Financiero</a>
-				<a href="" class="legales_links__distancia legales_links__division">   Botón de Baja</a>
-			</div>
-		</div>	
-	</footer>
-
-</main>
+</html>
