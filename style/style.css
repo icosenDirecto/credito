@@ -895,6 +895,11 @@ textarea {
 		font-size: var(--tenis);
 	}
 
+	.heroImage {
+		align-items: baseline;
+		height: auto;
+	}
+
 	.heroImagePosition {
 		display: none;
 	}
