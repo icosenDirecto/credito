@@ -887,8 +887,16 @@ textarea {
 		padding: 40px 0;
 	}
 
-	.hero__title, .servicios__title {
+	.heroTitle, .servicios__title {
 		width: auto;
+	}
+
+	.heroTitleXL {
+
+	}
+
+	.heroImagePosition {
+		display: none;
 	}
 
 	.heroLegales {
