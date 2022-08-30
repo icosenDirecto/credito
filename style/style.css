@@ -221,6 +221,7 @@ font-family: var(--primaria);
 
 .heroImage {
 	position: relative;
+	height: 75vh;
 }
 
 .heroImagePosition {
