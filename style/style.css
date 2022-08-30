@@ -219,6 +219,16 @@ font-family: var(--primaria);
     color: var(--blanco);
 }
 
+.heroImage {
+	position: relative;
+}
+
+.heroImagePosition {
+	position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 /* Section */
 
 .sectionIzquierda {
