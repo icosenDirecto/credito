@@ -203,12 +203,16 @@ a.navSubLinks:hover {
 	padding: 72px 0;
 }
 
-.hero__title, .servicios__title {
+.heroTitle, .servicios__title {
 	width: 40%;
 }
 
-.hero__title h1, h3 {
+.heroTitle h1, h3 {
 	color: var(--blanco);
+}
+
+.heroTitleXL {
+	font-size: 4rem;
 }
 
 .heroSubtitleWhite {
