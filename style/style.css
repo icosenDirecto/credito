@@ -248,6 +248,12 @@ font-family: var(--primaria);
 	text-align: center;
 }
 
+/* Align */
+
+.alignCenter {
+	text-align: center;
+}
+
 /* Modulo */
 
 .modulo {
@@ -756,6 +762,17 @@ form {
     flex-direction: column;
     row-gap: 16px;
 	align-items: end;
+}
+
+.formFlexCenter {
+	display: flex;
+	flex-direction: column;
+	row-gap: 24px;
+	align-items: center;
+}
+
+.formFlexModule {
+	
 }
 
 .formCheckbox {
