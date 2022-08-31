@@ -248,12 +248,6 @@ font-family: var(--primaria);
 	text-align: center;
 }
 
-/* Align */
-
-.alignCenter {
-	text-align: center;
-}
-
 /* Modulo */
 
 .modulo {
@@ -1072,10 +1066,6 @@ textarea {
 	.formGrid {
 		display: flex;
 		flex-direction: column;
-	}
-
-	.formFlexCenter{
-		padding: 80px 0px 40px;
 	}
 
 	.formThanks {
