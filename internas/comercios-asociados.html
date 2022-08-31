@@ -45,7 +45,6 @@
 	<!-- Animations -->
 	<script src="/main.js"></script>
 	<script src="/menu.js"></script>
-
 </head>
 
 <body>
@@ -213,33 +212,6 @@
 				<button type="submit" class="btn btn_large btnBlue btnContacto">Enviar</button>
 			</form>
 		</section>
-
-<section>
-	<?php
-    require 'Formr/class.formr.php';
-    $form = new Formr\Formr();
-    $form->required = '*';
-    if ($form->submitted()) {
-        if (!$form->errors()) {
-            $to = 'client@email.com';
-            $subject = 'Form Submission';
-            $from = 'donotreply@domain.com';
-
-            if ($form->send_email($to, $subject, 'POST', $from)) {
-                $form->success_message = 'Email Sent!';
-            }
-        }
-    }
-    $form->messages(); 
-?>
-
-<form action="form.php" method="post">
-	<input type="text" name="name" value="<?php $form->value('name'); ?>"><br>
-	<input type="email" name="email" value="<?php $form->value('email'); ?>"><br>
-	<button type="submit" name="submit">Submit Form</button>
-</form>
-</section>
-
 		<footer class="">
 			<div class="main-container footerEmpresa">
 				<div class="footerEmpresaCol1">
