@@ -772,7 +772,7 @@ form {
 }
 
 .formFlexModule {
-	
+
 }
 
 .formCheckbox {
@@ -1066,14 +1066,8 @@ textarea {
 		flex-direction: column;
 	}
 
-	.formThanks {
+	.formFlexCenter{
 		padding: 80px 0px 40px;
-	}
-
-	.formThanksText {
-		display: flex;
-		flex-direction: column;
-		row-gap: 24px;
 	}
 
 	/* FOOTER */
