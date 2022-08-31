@@ -778,7 +778,9 @@ form {
 }
 
 .formFlexModule {
-
+    display: flex;
+    column-gap: 48px;
+    padding-top: 12px;
 }
 
 .formCheckbox {
