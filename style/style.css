@@ -764,6 +764,12 @@ form {
 	align-items: end;
 }
 
+.formThanks {
+	display: flex;
+	align-items: center;
+	padding: 90px 0 24px;
+}
+
 .formFlexCenter {
 	display: flex;
 	flex-direction: column;
