@@ -1078,6 +1078,17 @@ textarea {
 		padding: 80px 0px 40px;
 	}
 
+	.formThanks {
+		flex-direction: column;
+		padding: 64px 0 24px;
+	}
+
+	.formFlexModule {
+		display: flex;
+		flex-direction: column;
+		row-gap: 24px;
+	}
+
 	/* FOOTER */
 
 	.footerEmpresa, .footerLegales {
