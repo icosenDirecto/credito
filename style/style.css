@@ -427,6 +427,17 @@ font-family: var(--primaria);
     height: 100%;
 }
 
+.moduleHeaderEspecial {
+	display: flex;
+    align-items: center;
+    height: 100vh;
+	padding-top: 90px;
+}
+
+.moduleDetalle {
+margin-top: 24px
+}
+
 .img123 {
 	width: 30%;
 }
