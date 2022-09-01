@@ -445,6 +445,14 @@ font-family: var(--primaria);
     row-gap: 24px;
 }
 
+/* List */
+
+.listLegales {
+	display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
 /* Iconos */
 /* fa-2xs */
 .iconSmall {
