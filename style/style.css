@@ -85,6 +85,12 @@ p, .nav-links, li {
 	font-size: var(--pingpong);
 }
 
+.linkDestacado {
+	font-size: var(--pool);
+    color: var(--azul);
+    font-weight: 700;
+}
+
 /* Margenes */
 
 .marginRight {
