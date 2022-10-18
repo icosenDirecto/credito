@@ -3,6 +3,10 @@ const result = document.getElementById('result');
 
 form.addEventListener('submit', function(e) {
     const formData = new FormData(form);
+    const Celular = formData.get('cellphone');
+    const mySubject = '${cellphone}'
+    formData.append("subject", mySubject);
+
     e.preventDefault();
     var object = {};
     formData.forEach((value, key) => {
