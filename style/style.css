@@ -491,6 +491,10 @@ h3 {
 	height: 48px;
 }
 
+.footerSocial a {
+    color: var(--negro);
+}
+
 /* Colores */
 
 .colorWhite {
