@@ -763,13 +763,14 @@ a {
 	line-height: 1.5;
 }
 
-.footerEmpresa a, p {
-    color: #5b5b5b;
+:where(footer.footerEmpresaLegales) p {
+	color: #5b5b5b;
 }
 
-.footerLegales a, p {
-    color: #5b5b5b;
+:where(footer.footerEmpresaLegales) a {
+	color: #5b5b5b;
 }
+
 
 /* FORMS */
 
