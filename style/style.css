@@ -67,6 +67,7 @@ h5 {
 	font-family: var(--primaria);
 	font-size: var(--golf);
 	font-weight: 500;
+	color: var(--blanco);
 }
 
 p,
