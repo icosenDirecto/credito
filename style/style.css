@@ -753,7 +753,7 @@ a {
 	line-height: 1.5;
 }
 
-:where (footer.footerEmpresa, footer.footerLegales) a, p {
+:is (footer.footerEmpresa, footer.footerLegales) a, p {
     color: #5b5b5b;
 }
 
