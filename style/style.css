@@ -1099,6 +1099,14 @@ textarea {
 		font-size: var(--pingpong);
 	}
 
+	.module60 {
+		width: auto;
+	}
+	
+	.module40 {
+		width: auto;
+	}
+
 	/* BACKGROUNDS */
 
 	.bgCorners {
