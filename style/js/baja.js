@@ -1,10 +1,10 @@
-const form = document.getElementById('formArrepentimiento');
-const result = document.getElementById('resultArrepentimiento');
+const form = document.getElementById('formBaja');
+const result = document.getElementById('resultBaja');
 
 form.addEventListener('submit', function(e) {
     const formData = new FormData(form);
     const Dni = formData.get('dni');
-    const mySubject = `Arrepentimiento :: ${Dni}`;
+    const mySubject = `Botón de Baja :: ${Dni}`;
     formData.append("subject", mySubject);
 
     e.preventDefault();
@@ -13,7 +13,7 @@ form.addEventListener('submit', function(e) {
         object[key] = value
     });
     var json = JSON.stringify(object);
-    resultArrepentimiento.innerHTML = "Por favor espere..."
+    resultBaja.innerHTML = "Por favor espere..."
 
     fetch('https://api.web3forms.com/submit', {
             method: 'POST',
@@ -26,20 +26,20 @@ form.addEventListener('submit', function(e) {
         .then(async (response) => {
             let json = await response.json();
             if (response.status == 200) {
-                resultArrepentimiento.innerHTML = "¡Mensaje enviado!";
+                resultBaja.innerHTML = "¡Mensaje enviado!";
             } else {
                 console.log(response);
-                resultArrepentimiento.innerHTML = "¡Mensaje enviado!";
+                resultBaja.innerHTML = "¡Mensaje enviado!";
             }
         })
         .catch(error => {
             console.log(error);
-            resultArrepentimiento.innerHTML = "¡Algo salió mal, pruebe nuevamente!";
+            resultBaja.innerHTML = "¡Algo salió mal, pruebe nuevamente!";
         })
         .then(function() {
-            formArrepentimiento.reset();
+            formBaja.reset();
             setTimeout(() => {
-                resultArrepentimiento.innerHTML = "Enviar un nuevo mensaje";
+                resultBaja.innerHTML = "Enviar un nuevo mensaje";
             }, 3000);
         });
 });
