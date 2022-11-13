@@ -3,8 +3,10 @@ const result = document.getElementById('resultArrepentimiento');
 
 form.addEventListener('submit', function(e) {
     const formData = new FormData(form);
-    const Dni = formData.get('dni', 'prestamo consumo', 'asistencia salud');
-    const mySubject = `Arrepentimiento :: ${Dni}`;
+    const Dni = formData.get('dni');
+    const Consumo = formData.get('prestamo consumo');
+    const Salud = formData.get('asistencia salud');
+    const mySubject = `Arrepentimiento :: ${Dni} :: ${Consumo} :: ${Salud} `;
     formData.append("subject", mySubject);
 
     e.preventDefault();
