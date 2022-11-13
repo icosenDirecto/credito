@@ -3,8 +3,8 @@ const result = document.getElementById('resultQuejas');
 
 form.addEventListener('submit', function(e) {
     const formData = new FormData(form);
-    const Dni = formData.get('dni');
-    const mySubject = `Libro de Quejas :: ${Dni}`;
+    const Nombre = formData.get('nombre-apellido');
+    const mySubject = `Libro de Quejas :: ${Nombre}`;
     formData.append("subject", mySubject);
 
     e.preventDefault();
