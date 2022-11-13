@@ -243,19 +243,16 @@
 				<p>Dejanos tus datos y nos estaremos comunicando con vos.</p>
 			</div>
 
-			<form target="_blank" action="https://api.web3forms.com/submit" method="POST">
-				<input type="hidden" name="access_key" value="17efea1b-d545-4649-a9c1-c5890aaf8b55">
-				<input type="hidden" name="_subject" value="Nueva Adhesión Comercio">
+			<form target="_blank" method="POST" id="formComercio">
+				<input type="hidden" name="access_key" value="fe0789d7-2670-44f9-a9e4-381b13c0e2e9">
 				<input type="text" id="nombre" name="nombre" class="form-control" placeholder="Nombre" required>
 				<input type="email" name="email" class="form-control" placeholder="Email" required>
-				<input type="number" name="cellphone" class="form-control" placeholder="Celular (Cód. de área + número)"
+				<input type="number" name="celular" class="form-control" placeholder="Celular (Cód. de área + número)"
 					required>
-				<input type="text" name="company" class="form-control" placeholder="Empresa" required>
+				<input type="text" name="compania" class="form-control" placeholder="Empresa" required>
 				<input type="text" name="localidad" class="form-control" placeholder="Localidad" required>
 				<input type="text" name="provincia" class="form-control" placeholder="Provincia" required>
-				<input type="hidden" name="_next" value="https://directo.netlify.app/internas/gracias-contacto.html">
-				<input type="hidden" name="_captcha" value="false">
-				<button type="submit" class="btn btn_large btnBlue btnContacto">Enviar</button>
+				<button type="submit" class="btn btn_large btnBlue btnContacto" id="resultComercio">Enviar</button>
 			</form>
 		</section>
 		<footer class="">

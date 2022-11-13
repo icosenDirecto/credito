@@ -1,10 +1,10 @@
-const form = document.getElementById('formArrepentimiento');
-const result = document.getElementById('resultArrepentimiento');
+const form = document.getElementById('formComercio');
+const result = document.getElementById('resultComercio');
 
 form.addEventListener('submit', function(e) {
     const formData = new FormData(form);
-    const Dni = formData.get('dni');
-    const mySubject = `Botón de Arrepentimiento :: ${Dni}`;
+    const Empresa = formData.get('compania');
+    const mySubject = `Nuevo Comercio :: ${Empresa}`;
     formData.append("subject", mySubject);
 
     e.preventDefault();
@@ -13,7 +13,7 @@ form.addEventListener('submit', function(e) {
         object[key] = value
     });
     var json = JSON.stringify(object);
-    resultArrepentimiento.innerHTML = "Por favor espere..."
+    resultComercio.innerHTML = "Por favor espere..."
 
     fetch('https://api.web3forms.com/submit', {
             method: 'POST',
@@ -26,20 +26,20 @@ form.addEventListener('submit', function(e) {
         .then(async (response) => {
             let json = await response.json();
             if (response.status == 200) {
-                resultArrepentimiento.innerHTML = "¡Mensaje enviado!";
+                resultComercio.innerHTML = "¡Mensaje enviado!";
             } else {
                 console.log(response);
-                resultArrepentimiento.innerHTML = "¡Mensaje enviado!";
+                resultComercio.innerHTML = "¡Mensaje enviado!";
             }
         })
         .catch(error => {
             console.log(error);
-            resultArrepentimiento.innerHTML = "¡Algo salió mal, pruebe nuevamente!";
+            resultComercio.innerHTML = "¡Algo salió mal, pruebe nuevamente!";
         })
         .then(function() {
-            formArrepentimiento.reset();
+            formComercio.reset();
             setTimeout(() => {
-                resultArrepentimiento.innerHTML = "Enviar un nuevo mensaje";
+                resultComercio.innerHTML = "Enviar un nuevo mensaje";
             }, 3000);
         });
 });
