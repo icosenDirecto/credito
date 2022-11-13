@@ -26,20 +26,20 @@ form.addEventListener('submit', function(e) {
         .then(async (response) => {
             let json = await response.json();
             if (response.status == 200) {
-                resultContacto.innerHTML = json.message;
+                resultContacto.innerHTML = "¡Mensaje enviado!";
             } else {
                 console.log(response);
-                resultContacto.innerHTML = json.message;
+                resultContacto.innerHTML = "¡Mensaje enviado!";
             }
         })
         .catch(error => {
             console.log(error);
-            resultContacto.innerHTML = "¡Mensaje enviado!";
+            resultContacto.innerHTML = "¡Algo salió mal, pruebe nuevamente!";
         })
         .then(function() {
             formContacto.reset();
             setTimeout(() => {
-                resultContacto.style.display = "none";
+                resultContacto.style.display = "block";
             }, 3000);
         });
 });
