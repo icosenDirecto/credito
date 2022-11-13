@@ -39,7 +39,7 @@ form.addEventListener('submit', function(e) {
         .then(function() {
             formContacto.reset();
             setTimeout(() => {
-                resultContacto.style.display = "block";
+                resultContacto.innerHTML = "Enviar un nuevo mensaje";
             }, 3000);
         });
 });
