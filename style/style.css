@@ -502,7 +502,7 @@ h3 {
 }
 
 .footerSocial a {
-    color: var(--negro);
+	color: var(--negro);
 }
 
 /* Colores */
@@ -1095,7 +1095,8 @@ textarea {
 	}
 
 	.moduleLegales {
-		padding: 64px 0;
+		margin-top: 16px;
+		margin-bottom: 16px;
 	}
 
 	.listLegales a {
@@ -1105,7 +1106,7 @@ textarea {
 	.module60 {
 		width: auto;
 	}
-	
+
 	.module40 {
 		width: auto;
 	}
