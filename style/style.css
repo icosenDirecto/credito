@@ -974,6 +974,7 @@ textarea {
 
 	.mobileNav {
 		margin-bottom: 24px;
+		list-style: none;
 	}
 
 	.open {
