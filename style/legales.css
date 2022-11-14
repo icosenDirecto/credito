@@ -7,7 +7,7 @@
 	margin-bottom:  40px;
 }
 
-p.textoLegales {
+p.textoLegales, li {
     color: #222;
     font-size: var(--pingpong);
     line-height: 1.7;
