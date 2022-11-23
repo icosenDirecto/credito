@@ -723,6 +723,7 @@ a {
 .footerAfip {
 	display: flex;
     height: max-content;
+	text-align: left;
 }
 
 .footerAfipText {
@@ -749,6 +750,7 @@ a {
     justify-content: space-between;
 	padding-top: 36px;
 	border-top: 1px solid #e8e8e8;
+	text-align: center;
 }
 
 .legales_links__division {
