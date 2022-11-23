@@ -913,6 +913,16 @@ textarea {
 	height: 120px !important;
 }
 
+/* Imagenes */
+
+.imgBcra {
+	width: 75%;
+}
+
+.imgCnv {
+	width: 50%;
+}
+
 /* MediaQueries MOBILE */
 @media screen and (max-width: 575px) {
 
