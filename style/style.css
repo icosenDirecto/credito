@@ -740,6 +740,10 @@ a {
 	gap: 16px;
 }
 
+.footerListaColumna {
+    padding-top: 48px;
+}
+
 .footerLegales {
 	display: flex;
     justify-content: space-between;
