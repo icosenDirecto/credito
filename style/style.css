@@ -501,9 +501,6 @@ h3 {
 	height: 48px;
 }
 
-.footerSocial a {
-	color: var(--negro);
-}
 
 /* Colores */
 
@@ -769,6 +766,18 @@ a {
 
 :where(footer.footerEmpresaLegales) a {
 	color: #5b5b5b;
+}
+
+.botonLegales {
+    background-color: #CEE6FF;
+    padding: 24px;
+    border-radius: 16px;
+}
+
+a.botonesLegalesLink {
+    color: #004489;
+    font-size: var(--squash);
+    line-height: 1;
 }
 
 /* FORMS */
