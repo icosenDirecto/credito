@@ -783,7 +783,7 @@ a {
 	text-align: center;
 }
 
-p.botonesLegalesLink {
+a.botonesLegalesLink {
     color: #004489;
     font-size: var(--squash);
     line-height: 1;
