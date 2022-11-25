@@ -1,6 +1,7 @@
 :root {
 	--primaria: 'Public Sans', sans-serif;
 	--secundaria: 'Archivo', sans-serif;
+	--marble: 0.625rem;
 	--pingpong: 0.75rem;
 	--squash: 1rem;
 	--golf: 1.25rem;
@@ -727,6 +728,7 @@ a {
 }
 
 .footerAfipText {
+	font-size: var(--marble);
 	margin-left: 16px;
 }
 
@@ -1235,15 +1237,15 @@ textarea {
 	.footerLegales {
 		display: flex;
 		flex-direction: column;
-		align-items: flex-start;
-	}
-
-	.footerEmpresa {
-		margin-bottom: 24px;
 	}
 
 	.footerEmpresaLogo {
 		margin-bottom: 16px;
+	}
+
+	.footerLegales {
+		text-align: left;
+		gap: 24px;
 	}
 
 	.footerSocial {
@@ -1252,9 +1254,12 @@ textarea {
 
 	.footerEmpresaCol1,
 	.footerEmpresaCol2,
-	.footerEmpresaCol3,
-	.footerEmpresaCol4 {
-		margin-bottom: 24px;
+	.footerEmpresaCol3 {
+		margin-bottom: 48px;
+	}
+
+	.footer_lista {
+		gap: 8px;
 	}
 
 	.footer_item {
@@ -1264,6 +1269,11 @@ textarea {
 	.footerLegalesLinks {
 		display: flex;
 		flex-direction: column;
+	}
+
+	.footerEmpresaCol4 {
+		gap: 24px;
+		width: 100%;
 	}
 
 	.legales_links__distancia {
