@@ -1240,7 +1240,7 @@ textarea {
 	}
 
 	.footerEmpresaLogo {
-		margin-bottom: 16px;
+		margin-bottom: 24px;
 	}
 
 	.footerLegales {
@@ -1249,7 +1249,7 @@ textarea {
 	}
 
 	.footerSocial {
-		margin-bottom: 36px;
+		margin-bottom: auto;
 	}
 
 	.footerEmpresaCol1,
