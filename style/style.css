@@ -567,6 +567,11 @@ button {
 .btnLine {
 	background-color: transparent;
 	border: 1.5px solid var(--azul);
+	color: var(--azul);
+}
+
+btnLine:hover {
+	color: var(--blanco);
 }
 
 .btnWhite {
