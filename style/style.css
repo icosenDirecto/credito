@@ -530,6 +530,8 @@ button {
 .boton {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
+    text-align: center;
 	max-width: fit-content;
 }
 
@@ -1198,11 +1200,12 @@ textarea {
 
 	/* BUTTON */
 
-	button {
-		width: auto;
+	.boton {
+		text-align: center;
+		width: 100%;
 	}
 
-	.btn_large {
+	.btnLarge {
 		margin-top: 64px;
 		padding: 16px 0;
 		width: 100%;
