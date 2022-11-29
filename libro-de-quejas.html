@@ -110,14 +110,14 @@
 					href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True&utm_source=web_directo&utm_medium=tuprestamodirecto"
 					target="_self">Tu préstamo directo</a>
 				<div class="dropdown">
-					<a class="navLinks" href="/servicios.html">Servicios para vos</a>
+					<a class="navLinks" href="/asistencias.html">Servicios para vos</a>
 				</div>
 				<a class="navLinks" href="/contacto.html" target="_self">Contacto</a>
 			</div>
 			<div class="comercios">
-				<button class="btn btnHeader btnBlue">
-					<a href="https://micomercio.directo.com.ar/Login" target="_self">Comercios</a>
-				</button>
+				<div class="boton">
+					<a href="https://micomercio.directo.com.ar/Login" class="btn btnHeader btnBlue" target="_self">Comercios</a>
+				</div>
 			</div>
 			<div class="header-mobile">
 				<a href="#" class="menu-toggle" onclick="navMobile()">
@@ -169,7 +169,7 @@
 							placeholder="Celular (Cód. de área + número)" required>
 						<textarea name="mensaje" id="" cols="30" rows="10" class="form-control"
 							placeholder="Mensaje"></textarea>
-						<button type="submit" class="btn btn_large btnBlue btnContacto" id="resultQuejas">Enviar</button>
+						<button type="submit" class="btn btnLarge btnBlue btnContacto" id="resultQuejas">Enviar</button>
 					</div>
 				</form>
 			</div>
@@ -189,68 +189,65 @@
 						<a href="https://www.linkedin.com/company/directo-argentina/" target="_blank" rel="noopener"><i
 								class="fa-brands fa-linkedin-in"></i></a>
 					</div>
-					<a href="https://servicios1.afip.gov.ar/clavefiscal/qr/response.aspx?qr=KzwuOJhGPsmIhmBT8kDbVQ,,">
-						<div class="footerAfip">
-							<img src="/assets/data-fiscal.webp" alt="Información Fiscal">
-							<p class="footerAfipText">Crédito Directo S.A. – CUIT N° 30-71210113-6<br>
-								Av. Corrientes 1174, Piso 7°<br>
-								Ciudad Autónoma de Buenos Aires</p>
-						</div>
-					</a>
 				</div>
 				<div class="footerEmpresaCol2">
-					<h4>Productos</h4>
 					<div class="footer_lista">
-						<a class="footer_item"
-							href="https://mi.directo.com.ar/Cuenta/Ingresar?ePedirPrestamo=True&utm_source=web_directo&utm_medium=tuprestamodirecto">Tu
-							préstamo directo</a>
-						<a class="footer_item" href="/servicios.html">Servicios para vos</a>
+						<h4>Atención al cliente</h4>
+						<p class="footer_item">0800 345 6790</p>
+						<p class="footer_item">Lunes a viernes de 9 a 20 hs.</p>
 					</div>
-				</div>
-				<div class="footerEmpresaCol3">
-					<h4>Nosotros</h4>
-					<div class="footer_lista">
+					<div class="footer_lista footerListaColumna">
+						<h4>Nosotros</h4>
 						<a class="footer_item" href="/institucional.html">Institucional</a>
 						<a class="footer_item" href="https://www.grupost.com.ar/">Grupo GST</a>
 					</div>
 				</div>
-				<div class="footerEmpresaCol4">
-					<h4>Atención al cliente</h4>
+				<div class="footerEmpresaCol3">
 					<div class="footer_lista">
-						<p class="footer_item">0800 345 6790</p>
-						<p class="footer_item">Lunes a viernes de 9 a 20 hs.</p>
+						<h4>Legales</h4>
+						<a class="footer_item" href="/terminos-y-condiciones.html">Términos y condiciones</a>
+						<a class="footer_item" href="/politicas-de-privacidad.html">Politicas de privacidad</a>
+						<a class="footer_item" href="/informacion-al-usuario-financiero.html">Información al usuario
+							financiero</a>
+						<a class="footer_item" href="/informacion-al-usuario-financiero.html">Comisiones, cargos y tasas</a>
+						<a class="footer_item" href="/informacion-al-usuario-financiero.html">Contratos de adhesión, Ley 24.240</a>
+						<a class="footer_item" href="/defensa-del-consumidor.html">Defensa del consumidor</a>
+						<a class="footer_item" href="/proteccion-de-datos-personales.html">Protección de datos
+							personales</a>
+					</div>
+				</div>
+				<div class="footerEmpresaCol4">
+					<div>
+						<button class="botonLegales">
+							<a href="/boton-de-arrepentimiento.html" class="botonesLegalesLink">Botón de
+								arrepentimiento</a>
+						</button>
+					</div>
+					<div>
+						<button class="botonLegales">
+							<a href="/boton-de-baja.html" class="botonesLegalesLink">Botón de baja</a>
+						</button>
 					</div>
 				</div>
 			</div>
 			<div class="main-container footerLegales">
 				<div>
-					<a href="http://www.bcra.gob.ar/BCRAyVos/Usuarios_Financieros.asp">
-						<img class="footerLegalesImagen" src="/assets/banner-bcra.webp" alt="Información Fiscal">
+					<a href="https://servicios1.afip.gov.ar/clavefiscal/qr/response.aspx?qr=KzwuOJhGPsmIhmBT8kDbVQ,," class="footerAfip">
+						<img src="/assets/data-fiscal.webp" alt="Información Fiscal">
+						<p class="footerAfipText">Crédito Directo S.A. – CUIT N° 30-71210113-6<br>
+						Av. Corrientes 1174, Piso 7°<br>
+						Ciudad Autónoma de Buenos Aires</p>
 					</a>
 				</div>
-
+				<div>
+					<a href="http://www.bcra.gob.ar/BCRAyVos/Usuarios_Financieros.asp">
+						<img class="footerLegalesImagen imgBcra" src="/assets/banner-bcra.webp" alt="Información Fiscal">
+					</a>
+				</div>
 				<div>
 					<a href="https://www.argentina.gob.ar/cnv">
-						<img class="footerLegalesImagen" src="/assets/cnv.webp" alt="Información Fiscal">
+						<img class="footerLegalesImagen imgCnv" src="/assets/cnv_logo.png" alt="Información Fiscal">
 					</a>
-				</div>
-				<div class="footerLegalesLinks">
-					<a href="/terminos-y-condiciones.html"
-						class="legales_links__distancia legales_links__division">Términos y Condiciones</a>
-					<a href="/politicas-de-privacidad.html" class="legales_links__distancia legales_links__division">
-						Política de Privacidad</a>
-					<a href="/proteccion-de-datos-personales.html"
-						class="legales_links__distancia legales_links__division"> Protección Datos Personales</a>
-					<a href="/defensa-del-consumidor.html"
-						class="legales_links__distancia legales_links__division"> Defensa Del Consumidor</a>
-					<a href="/libro-de-quejas.html" class="legales_links__distancia legales_links__division">
-						Libro de Quejas</a>
-					<a href="/boton-de-arrepentimiento.html" class="legales_links__distancia legales_links__division">
-						Botón de Arrepentimiento</a>
-					<a href="/informacion-al-usuario-financiero.html"
-						class="legales_links__distancia legales_links__division"> Información al Usuario Financiero</a>
-					<a href="/boton-de-baja.html" class="legales_links__distancia legales_links__division">
-						Botón de Baja</a>
 				</div>
 			</div>
 		</footer>
