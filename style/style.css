@@ -603,6 +603,10 @@ btnLine:hover {
 	color: var(--blanco)
 }
 
+.btnMobile {
+	display: none;
+}
+
 /* Backgrounds */
 
 .bg_degrade {
@@ -1214,6 +1218,10 @@ textarea {
 	.btn_medium {
 		padding: 16px 24px;
 		width: 100%;
+	}
+
+	.btnDesktop {
+		display: none;
 	}
 
 	/* LINKS */
