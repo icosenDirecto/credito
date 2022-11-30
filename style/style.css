@@ -1224,6 +1224,10 @@ textarea {
 		display: none;
 	}
 
+	.btnMobile {
+		display: block;
+	}
+
 	/* LINKS */
 
 	li a {
