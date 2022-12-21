@@ -82,6 +82,10 @@ li {
 	color: var(--azul);
 }
 
+.typeDestacado {
+	font-weight: 700;
+}
+
 /* Small text */
 
 .textSmall {
