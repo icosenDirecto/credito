@@ -471,6 +471,12 @@ h3 {
 	border-bottom: 1px solid #E8E8E8;
 }
 
+.moduleAfiche {
+	display: flex;
+flex-direction: row;
+gap: 24px;
+}
+
 /* Forms */
 
 .formThanksText {
