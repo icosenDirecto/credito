@@ -660,6 +660,14 @@ btnLine:hover {
 	background-color: var(--ceruleo);
 }
 
+.bgTurismo {
+	background-color: #98c292;
+    background-image: url(/assets/turismo.jpeg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right top;
+}
+
 /* Iconos
 
 .fa-angle-down {
